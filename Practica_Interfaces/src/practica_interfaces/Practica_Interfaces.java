@@ -6,6 +6,7 @@ public class Practica_Interfaces {
     public static void main(String[] args) {
         Terrestre camioneta = new Terrestre(50, 120, 4, "civil");
         Acuatico motoAcuatica = new Acuatico(50, 110, "superficie", 2);
+        
 
         System.out.println("Camioneta");
         camioneta.imprimir();

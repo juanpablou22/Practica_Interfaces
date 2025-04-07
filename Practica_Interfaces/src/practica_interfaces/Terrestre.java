@@ -11,6 +11,7 @@ public class Terrestre extends Vehiculo implements Motor {
         this.uso = uso;
     }
 
+    
     @Override
     public int calcularRevolucionesMotor(int fuerza, int radio) {
         return fuerza * radio;

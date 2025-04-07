@@ -11,7 +11,7 @@ public class Acuatico extends Vehiculo implements Vela {
         this.tipo = tipo;
         this.capacidadPasajeros = capacidadPasajeros;
     }
-
+    
     @Override
     public void recomendarVelocidad(int velocidadViento) {
         if (velocidadViento > 80) {
@@ -22,5 +22,7 @@ public class Acuatico extends Vehiculo implements Vela {
         } else {
             System.out.println("Condiciones adecuadas para navegar.");
         }
+       
     }
+    
 }
